@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-icon {
+	width: 2.4rem;
+	height: 2.4rem;
+	font-size: 0.6rem;
+}
+
+.project-icon {
+	width: 3.5rem;
+	height: 3.5rem;
+	font-size: 0.6rem;
+}
+
+@layer components {
+	.section__subtitle {
+		@apply text-gray-600 text-lg text-center;
+	}
+	.text-gray {
+		@apply text-gray-600;
+	}
+
+	.section__title {
+		@apply font-baloo text-blue-600 text-2xl font-bold;
+	}
+	.about__image {
+		width: 50%;
+		/* height: 50%; */
+		/* border-radius: 50%; */
+	}
+}
