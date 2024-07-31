@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Portfolio | Samson</title>
+   <title>Portfolio | 😁 Samson Dada</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap" rel="stylesheet">
@@ -12,31 +12,31 @@
 </head>
 
 <body class="">
-   <header class=" fixed w-full z-10 md:pt-4  md:text-gray-600 bg-white">
+   <header class=" fixed w-full z-10 md:pt-4  md:text-blue-700 bg-white md:mb-10">
       <div class="container mx-auto px-4 flex justify-between items-center">
          <div class="text-gray-600 text-2xl font-bold">Samson</div>
          <div class="lg:hidden">
-            <button id="menu-toggle" class="text-gray-500 text-4xl">
+            <button id="menu-toggle" class="text-blue-600 text-4xl">
                <svg class="svg menu-icon">
                   <use xlink:href="icons/Material-icon.svg#icon-menu"></use>
                </svg>
             </button>
          </div>
          <nav id="nav-menu"
-            class="md:bg-none fixed top-0 left-0 w-full h-full bg-gradient-to-b from-blue-500 to-blue-400 transform -translate-x-full transition-transform duration-300 ease-in-out lg:transform-none lg:relative lg:bg-transparent lg:flex lg:items-center lg:space-x-4">
+            class="md:bg-none fixed top-0 left-0 w-10/12 h-1/2 bg-gradient-to-b from-blue-500 to-blue-300 transform -translate-x-full transition-transform duration-300 ease-in-out lg:transform-none lg:relative lg:bg-transparent lg:flex lg:items-center lg:space-x-4">
             <ul
                class="md:pl-5  flex flex-col items-center justify-center space-y-4 lg:flex-row lg:space-y-0 lg:space-x-4">
-               <li><a href="#about" class="text-white md:text-2xl text-xl lg:text-base hover:text-gray-300">About</a>
+               <li><a href="#about" class="nav__link md:text-2xl text-xl lg:text-base hover:text-gray-300">About</a>
                </li>
-               <li><a href="#contact" class="text-xl lg:text-base hover:text-gray-800">Skill</a></li>
-               <li><a href="#projects" class=" text-xl lg:text-base hover:text-gray-800">Projects</a></li>
-               <li><a href="#contact" class=" text-xl lg:text-base hover:text-gray-800">Contact</a></li>
+               <li><a href="#skill" class="nav__link text-xl lg:text-base hover:text-gray-800">Skill</a></li>
+               <li><a href="#project" class="nav__link  text-xl lg:text-base hover:text-gray-800">Projects</a></li>
+               <li><a href="#contact" class="nav__link  text-xl lg:text-base hover:text-gray-800">Contact</a></li>
             </ul>
          </nav>
       </div>
    </header>
 
-   <section class="h-screen flex items-center justify-center ">
+   <section class="h-screen flex items-center justify-center">
       <div class="p-8 md:flex md:items-center md:justify-between md:w-3/4 lg:w-2/3">
          <div>
             <h1 class="text-5xl font-bold mb-4 md:mb-2 text-left">Hello!</h1>
@@ -45,10 +45,10 @@
             </h2>
             <p class="text-lg md:text-xl font-light mb-8">Software Developer</p>
             <div class="hero__link">
-               <a href="#projects" class="bg-blue-600 text-white py-2 px-4 rounded-full inline-block md:px-6">
+               <a href="#project" class="bg-blue-600 text-white py-2 px-4 rounded-full inline-block md:px-6">
                   Visit My Works
                </a>
-               <a href="#projects"
+               <a href="#skill"
                   class="text-gray-600 border border-gray-400 ml-3 py-2 px-4 rounded-full inline-block md:px-6">
                   Visit My Skills
                </a>
@@ -59,7 +59,7 @@
    </section>
 
 
-   <section class="about__section border border-b pt-5 p-4 mb-4 md:border-0 flex flex-row justify-around">
+   <section class="about__section pt-5 p-4 mb-4 md:border-0 flex flex-row justify-around" id="about">
       <!-- <div class="md:w-1/2 md:flex md:justify-center md:items-center mt-6 md:mt-0">
          <img src="./src/image-me.jpg" alt="Samson Dada"
             class="rounded-full w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 object-cover">
@@ -82,7 +82,7 @@
       </div> -->
 
       <section class="py-12 px-4 md:px-8 lg:px-16 bg-gray-100">
-         <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
+         <div class="max-w-5xl md:mx-auto flex flex-col md:flex-row items-center">
             <div class="md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
                <img src="./src/image-me.jpg" alt="Samson Dada"
                   class="rounded-full w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 object-cover">
@@ -98,7 +98,7 @@
                   effective
                   collaboration and communication
                </p>
-               <a href="#"
+               <a href="https://drive.google.com/file/d/1ETrTphQX4EdWjaLNuuIuSttjJL13pSLY/view?usp=drivesdk"
                   class="inline-block bg-white text-blue-700 border border-blue-700 rounded-full py-2 px-6 hover:bg-blue-700 hover:text-white transition">
                   Download CV
                </a>
@@ -108,11 +108,11 @@
 
    </section>
 
-   <section class="section__skill mt-8">
-      <p class="section__subtitle ">What is my skill ?</p>
+   <section class="section__skill mt-8" id="skill">
+      <p class="section__subtitle">What is my skill ?</p>
       <h3 class="section__title mt-4 text-center">Capacities</h3>
-      <div class="skill__content mt-6 py-4">
-         <ul class="skill__list grid grid-cols-3 gap-4 p-3">
+      <div class="skill__content mt-6 py-4 md:w-2/4 md:mx-auto md:text-center">
+         <ul class="skill__list grid grid-cols-3 gap-4 p-3 mb-4">
             <span class="flex items-center">
                <span class="w-6 h-6 flex justify-center items-center">
                   <svg class="svg menu-icon">
@@ -143,7 +143,7 @@
                      <use xlink:href="icons/Material-icon.svg#icon-check"></use>
                   </svg>
                </span>
-               <li class="skill__items">jquery</li>
+               <li class="skill__items">jQuery</li>
             </span>
             <span class="flex items-center">
                <span class="w-6 h-6 flex justify-center items-center">
@@ -151,7 +151,7 @@
                      <use xlink:href="icons/Material-icon.svg#icon-check"></use>
                   </svg>
                </span>
-               <li class="skill__items">Nodejs</li>
+               <li class="skill__items">Node.js</li>
             </span>
             <span class="flex items-center">
                <span class="w-6 h-6 flex justify-center items-center">
@@ -188,8 +188,9 @@
          </ul>
       </div>
    </section>
+
    <div class="bg-background-color mb-6 ">
-      <section class="project__section mt-6 mb-6 pt-6">
+      <!-- <section class="project__section mt-6 mb-6 pt-6">
          <p class="section__subtitle">what have done ?</p>
          <h3 class="section__title text-center mt-3">Projects</h3>
          <div class="project__container md:grid md:grid-cols-2 gap-4">
@@ -237,12 +238,149 @@
                </div>
             </div>
          </div>
+      </section> -->
+
+      <section class="project__section m-4 pb-2 pt-20" id="project">
+         <p class="section__subtitle text-center text-gray-600">What have I done?</p>
+         <h3 class="section__title text-center mt-3 text-3xl font-bold">Projects</h3>
+
+         <div class="project__container md:grid md:grid-cols-4 gap-6 mt-6">
+
+            <div class="project__content bg-white shadow-lg rounded-lg mb-10 overflow-hidden flex flex-col">
+               <div class=" text-center self-center mt-4">
+                  <svg class="h-16 fill-gray-600" fill="currentColor">
+                     <use xlink:href="icons/Material-icon.svg#icon-fastfood"></use>
+                  </svg>
+               </div>
+               <div class="project__body w-full text-center flex-grow">
+                  <h4 class="section__title p-3 text-center">liteMan Coffee</h4>
+                  <p class="text-gray-700 text-base leading-8 mb-4 p-4 text-center">
+                     Designed and implemented a front web application HTML, CSS, JavaScript, responsive design,semantic
+                     HTML for SEO, the static website serve as minimal way of showcasing products, service and what
+                     brand purposes
+                  </p>
+               </div>
+               <div class="flex justify-between items-center mt-6 p-3 bg-background-color">
+                  <a href=" https://liteman-coffee.onrender.com/" class="flex items-center text-gray-600 text-sm">
+                     <svg class="w-5 h-5 mr-2" fill="currentColor">
+                        <use xlink:href="icons/Material-icon.svg#icon-link"></use>
+                     </svg>
+                     View Link
+                  </a>
+                  <a href="https://github.com/Samson-Dada/liteman-coffee"
+                     class="flex items-center text-sm text-gray-600">
+                     <svg class="w-5 h-5 mr-2" fill="currentColor">
+                        <use xlink:href="icons/Material-icon.svg#icon-code"></use>
+                     </svg>
+                     View Code
+                  </a>
+               </div>
+            </div>
+
+            <div class="project__content bg-white shadow-lg rounded-lg mb-10 overflow-hidden flex flex-col">
+               <!-- <img src="./src/pencil-case.svg" alt="Project Image" class="w-16 h-16 text-center self-center mt-4"> -->
+               <div class=" text-center self-center mt-4">
+                  <svg class="h-16 fill-gray-600" fill="currentColor">
+                     <use xlink:href="icons/Material-icon.svg#icon-dashboard"></use>
+                  </svg>
+               </div>
+               <div class="project__body w-full text-center flex-grow">
+                  <h4 class="section__title p-3 text-center">Admin Dashboard</h4>
+                  <p class="text-gray-700 text-base leading-8 mb-4 p-4 text-center">
+                     In this application, it provides an admin menu and submenu for easy navigation, desktop layout and
+                     accessibility.
+                     The dashboard is a static website built with HTML, CSS, and JavaScript.
+                  </p>
+               </div>
+               <div class="flex justify-between items-center mt-6 p-3 bg-background-color">
+                  <a href="https://github.com/Samson-Dada/liteman-coffee"
+                     class="flex items-center text-gray-600 text-sm">
+                     <svg class="w-5 h-5 mr-2" fill="currentColor">
+                        <use xlink:href="icons/Material-icon.svg#icon-link"></use>
+                     </svg>
+                     View Link
+                  </a>
+                  <a href="#" class="flex items-center text-sm text-gray-600">
+                     <svg class="w-5 h-5 mr-2" fill="currentColor">
+                        <use xlink:href="icons/Material-icon.svg#icon-code"></use>
+                     </svg>
+                     View Code
+                  </a>
+               </div>
+            </div>
+
+            <div class="project__content bg-white shadow-lg rounded-lg mb-10 overflow-hidden flex flex-col">
+               <!-- <img src="./src/pencil-case.svg" alt="Project Image" class="w-16 h-16 text-center self-center mt-4"> -->
+               <div class=" text-center self-center mt-4">
+                  <svg class="h-16 fill-gray-600" fill="currentColor">
+                     <use xlink:href="icons/Material-icon.svg#icon-dashboard"></use>
+                  </svg>
+               </div>
+               <div class="project__body w-full text-center flex-grow">
+                  <h4 class="section__title p-3 text-center">Brand Portfolio</h4>
+                  <p class="text-gray-700 text-base leading-8 mb-4 p-4 text-center">
+                     This static application showcases list of skills, experience, technical competence and what the
+                     owner of the Portfolio is capable of doing
+                  </p>
+               </div>
+               <div class="flex justify-between items-center mt-6 p-3 bg-background-color">
+                  <a href="https://github.com/Samson-Dada/liteman-coffee  https://samson-dada.github.io/company-login-platform/"
+                     class="flex items-center text-gray-600 text-sm">
+                     <svg class="w-5 h-5 mr-2" fill="currentColor">
+                        <use xlink:href="icons/Material-icon.svg#icon-link"></use>
+                     </svg>
+                     View Link
+                  </a>
+                  <a href="#" class="flex items-center text-sm text-gray-600">
+                     <svg class="w-5 h-5 mr-2" fill="currentColor">
+                        <use xlink:href="icons/Material-icon.svg#icon-code"></use>
+                     </svg>
+                     View Code
+                  </a>
+               </div>
+            </div>
+
+            <div class="project__content bg-white shadow-lg rounded-lg mb-10 overflow-hidden flex flex-col">
+               <!-- <img src="./src/pencil-case.svg" alt="Project Image" class="w-16 h-16 text-center self-center mt-4"> -->
+               <div class=" text-center self-center mt-4">
+                  <svg class="h-16 fill-gray-600" fill="currentColor">
+                     <use xlink:href="icons/Material-icon.svg#icon-dashboard"></use>
+                  </svg>
+               </div>
+               <div class="project__body w-full text-center flex-grow">
+                  <h4 class="section__title p-3 text-center">Brand Portfolio</h4>
+                  <p class="text-gray-700 text-base leading-8 mb-4 p-4 text-center">
+                     This static application is dynamic, it provide a login platform for staff and visitor to gain
+                     access to an organization at the point of entry, validations, understandable UI, easy to navigate
+                     and basic user accessibility
+                  </p>
+               </div>
+               <div class="flex justify-between items-center mt-6 p-3 bg-background-color">
+                  <a href="https://samson-dada.github.io/company-login-platform/"
+                     class="flex items-center text-gray-600 text-sm">
+                     <svg class="w-5 h-5 mr-2" fill="currentColor">
+                        <use xlink:href="icons/Material-icon.svg#icon-link"></use>
+                     </svg>
+                     View Link
+                  </a>
+                  <a href="https://samson-dada.github.io/company-login-platform/"
+                     class="flex items-center text-sm text-gray-600">
+                     <svg class="w-5 h-5 mr-2" fill="currentColor">
+                        <use xlink:href="icons/Material-icon.svg#icon-code"></use>
+                     </svg>
+                     View Code
+                  </a>
+               </div>
+            </div>
+
+         </div>
       </section>
+
    </div>
 
-   <section class="section__contact pb-4 mb-5">
+   <section class="section__contact pb-4 mb-5" id="contact">
       <p class="section__subtitle">Want to work with me?</p>
-      <h3 class="section__title text-center mt-3">
+      <h3 class="section__title text-center text-2xl mt-3">
          Feel Free to Contact & Hire me</h3>
       <div class="skill__content mt-6 ml-4">
          <ul class="skill__list grid grid-cols-2 gap-4 justify-items-center">
@@ -282,8 +420,9 @@
          </ul>
       </div>
    </section>
-   <footer class="bg-gray-900 text-white p-4 text-center">
-      <p id="copyright_text">&copy; 2024 Samson Dada. All rights reserved.</p>
+
+   <footer class="bg-gray-700 text-white p-4 text-center">
+      <p id="copyright_text"></p>
    </footer>
    <script src="app.js"></script>
 </body>

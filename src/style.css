@@ -3,6 +3,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+html {
+	scroll-behavior: smooth;
+}
 
 @tailwind base;
 @tailwind components;
@@ -12,6 +15,7 @@
 	width: 2.4rem;
 	height: 2.4rem;
 	font-size: 0.6rem;
+	fill: #2563eb;
 }
 
 .project-icon {
@@ -31,6 +35,11 @@
 	.section__title {
 		@apply font-baloo text-blue-600 text-2xl font-bold;
 	}
+
+	.menu-icon {
+		@apply font-baloo text-blue-600 text-sm h-10 w-10;
+	}
+
 	.about__image {
 		width: 50%;
 		/* height: 50%; */
